@@ -1,0 +1,94 @@
+body {
+    background:linear-gradient(45deg,#66ff66,rgb(240, 165, 215));
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+}
+
+h1 {
+    font-family: 'UnifrakturCook';font-size: 22px;
+    font-size: 3em;
+}
+
+h2, h1 {
+    background-color: #ccffdd;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    color: #0039e6;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.v1 {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ff0066;
+    margin:30px 20px;
+    padding: 10px;
+    margin-left: 150px;
+    background-color: #e6b3ff;
+}
+
+.v2 {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ff0066;
+    margin:30px 20px;
+    padding: 10px;
+    background-color: #e6b3ff;
+}
+
+#p1 {
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00e600;
+} 
+
+.leftcontent {
+    padding: 5px;
+    width: calc(65% - 10px);
+    float: left;
+}
+
+.rightcontent {
+    padding: 5px;
+    width: calc(35% - 10px);
+    float: right;
+}
+
+.right-sticky {
+    position: sticky;
+    top: 40px;
+}
+
+#h_long {
+    background-color: #ccffdd;
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    color: #0039e6;
+}
+
+.b {
+    display: inline;
+    border: lightslategray;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
